@@ -70,11 +70,6 @@ def get_file_path():
 
     return file_path
 
-
-from pathlib import Path
-import pandas as pd
-
-
 def get_timeseries():
     """
     Load the main time series (PV, household load, BEV state, prices, etc.)
